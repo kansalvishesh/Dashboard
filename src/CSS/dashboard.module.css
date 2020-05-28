@@ -1,0 +1,105 @@
+.Dashboard{
+    background-color: #F8F8F8;
+    font-family: "Work Sans";
+    width: 100%;
+    height: 100%;
+}
+.Header{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.Right{
+    margin-left: 60px;
+    font-size: 1rem;
+    margin-top: 1% ;
+}
+.ThisButtons{
+    font-size: 0.8rem;
+}
+.Container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.ContainerHeader{
+    font-size: 2rem;
+}
+.ContainerText{
+    font-size: 0.8rem;
+}
+.Boxes{
+    margin-bottom: 1%;
+}
+.DivContainer{
+    margin-right: 5px;
+}
+.Date{
+    font-size: 10px;
+    color:  #B4B4BD;
+}
+@media(max-width:992px){
+    .ContainerHeader{
+        font-size: 1.5rem;
+    }
+    .ContainerText{
+        font-size: 0.7rem;
+    }
+    .Checkbox{
+        font-size: 0.6rem;
+    }
+}
+.Checkbox{
+    font-size: 0.9rem;
+}
+@media(max-width:820px){
+    .Header{
+        font-size: 1.8rem;
+    }
+    .Right{
+        margin-left: 30px;
+    }
+    
+}
+.Hidden{
+    display: none;
+}
+.Hidden2{
+    display: block;
+}
+@media(max-width:576px){
+    .Hidden{
+        display: block;
+    }
+    .Hidden2{
+        display: none;
+    }
+ 
+}
+@media(max-width:770px){
+    .Header{
+        font-size: 1.2rem;
+        padding: 1%;
+    }
+    .Right{
+        margin-left: 20px;
+        font-size: 0.7rem;
+        margin-top: 2% ;
+    }
+    .ThisButtons{
+        font-size: 0.4rem;
+    }
+    .DivContainer{
+        margin-bottom: 20px;
+    }
+    .ContainerHeader{
+        font-size: 2rem;
+    }
+    .ContainerText{
+        font-size: 1rem;
+    }
+}
+@media(max-width:1201px){
+    .Checkbox{
+        font-size: 0.6rem;
+    }
+}
